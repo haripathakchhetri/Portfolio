@@ -8,11 +8,11 @@ const About = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
 
-        <p className=" text-sm md:text-xl  mt-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptas aperiam nemo consequuntur quo eligendi consequatur harum voluptates ut, architecto molestias? Odit earum minus cum accusantium qui beatae ipsum, itaque culpa quaerat, totam atque, impedit eos! Quod expedita ipsam numquam, reiciendis soluta, sint obcaecati magnam dolore assumenda repellat, quam rem.</p>
+        <p className=" text-sm md:text-xl  mt-20">Hello! I'm a dedicated Computer Systems Engineering student with a strong passion for web development, particularly within the MERN stack. My journey into coding began with a fascination for how web applications are built, and it has blossomed into a commitment to creating dynamic, responsive user experiences. I specialize in MongoDB, Express.js, React.js, and Node.js, and I enjoy leveraging these technologies to build full-stack applications.</p>
 
         <br />
 
-        <p className=" text-sm md:text-xl mt-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magnam tempore facilis harum assumenda ipsam neque accusantium est provident similique repellat nisi consectetur asperiores maiores hic quidem velit dolorem, explicabo quod expedita ipsum minus officia corporis saepe. Amet rem, iure incidunt est necessitatibus reprehenderit aliquam quam quaerat vitae quas molestiae.</p>
+        <p className=" text-sm md:text-xl mt-5 ">Through projects like a Coffee Website and a Netflix UI clone, I have gained hands-on experience in integrating APIs and managing application state using tools like Redux. I thrive on the challenge of turning complex problems into elegant solutions, and I'm constantly seeking to deepen my understanding of modern web development practices. In addition to my technical skills, I enjoy playing sports like football and cricket, which help me maintain a balanced lifestyle. I'm excited to connect with others in the tech community and share insights on building impactful web applications!</p>
 
       </div>
 
