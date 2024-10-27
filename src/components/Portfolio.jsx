@@ -14,7 +14,8 @@ const Portfolio = () => {
     {
       id: 2,
       src: Coffee2,
-      Link: "https://github.com/haripathakchhetri/HimalayanJava_Frontend"
+      Link: "https://github.com/haripathakchhetri/HimalayanJava_Frontend",
+      Demo: "https://coffeehub-topaz.vercel.app"
     },
     {
       id: 3,
@@ -40,7 +41,7 @@ const Portfolio = () => {
 
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, Link }) => (
+          {portfolios.map(({ id, src, Link, Demo }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg overflow-hidden">
               <img
                 src={src}
@@ -57,6 +58,16 @@ const Portfolio = () => {
                     Code
                   </button>
                 </a>
+
+                {Demo && (<a
+                  href={Demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105">
+                    Demo
+                  </button>
+                </a>)}
               </div>
             </div>
           ))}
